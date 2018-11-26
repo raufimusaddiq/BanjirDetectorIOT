@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">LoraIOT</string>
+    <string name="app_name">Flood Monitor</string>
+    <string name="menu_database">Database</string>
 </resources>
