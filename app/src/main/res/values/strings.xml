@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Pendeteksi Banjir</string>
+    <string name="app_name">Flood Monitor</string>
+    <string name="menu_database">Database</string>
 </resources>

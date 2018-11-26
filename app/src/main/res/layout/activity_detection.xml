@@ -25,18 +25,27 @@
             android:layout_height="174dp"
             android:layout_margin="@dimen/activity_vertical_margin"
             android:layout_weight="0"
-            app:srcCompat="@drawable/ic_running" />
+            app:srcCompat="@drawable/ic_shield" />
 
         <TextView
             android:id="@+id/textDetecttion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
             android:layout_weight="0"
             android:gravity="center"
-            android:text="Siaga 1"
-            android:textSize="30sp"
-            android:layout_margin="@dimen/activity_vertical_margin"/>
+            android:text="Data Masih Kosong"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Data Masih Kosong"
+            android:textSize="18sp" />
     </LinearLayout>
 
 </LinearLayout>

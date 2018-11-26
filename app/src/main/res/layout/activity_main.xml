@@ -25,7 +25,7 @@
         android:layout_margin="@dimen/fab_margin"
         android:layout_weight="0"
         android:gravity="center_vertical|center_horizontal"
-        android:text="Flood Detector"
+        android:text="Flood Monitor"
         android:textSize="30sp" />
 
 </LinearLayout>

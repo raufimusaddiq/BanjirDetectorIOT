@@ -13,16 +13,17 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
             android:theme="@style/ToolBarStyle">
 
             <TextView
                 android:id="@+id/toolbar_title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="@string/app_name"
-                android:textColor="@color/colorPrimaryDark"
-                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-                android:layout_gravity="center" />
+                android:textColor="@color/colorPrimaryDark" />
 
         </android.support.v7.widget.Toolbar>
 
